@@ -8,7 +8,7 @@
 #X floatatom 129 141 5 0 0 0 - - -;
 #X floatatom 129 196 5 0 0 0 - - -;
 #X obj 110 220 osc~ 330;
-#X obj 107 282 dac~;
+#X obj 83 330 dac~;
 #X obj 182 247 s metroTime;
 #X msg 182 221 200;
 #X msg 217 221 500;
@@ -26,6 +26,7 @@
 #X connect 6 0 3 0;
 #X connect 6 0 13 0;
 #X connect 8 0 9 0;
+#X connect 8 0 9 1;
 #X connect 11 0 10 0;
 #X connect 12 0 10 0;
 #X connect 13 0 14 0;
