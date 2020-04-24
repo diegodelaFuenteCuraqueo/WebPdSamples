@@ -5,8 +5,7 @@ $('form').submit(function(event) {
   Pd.send('metroTime', [parseFloat($('#metroTime').val())]);
 })
 
-var patch
-$.get('pd/main.pd', function(mainStr) {
+var patch = $.get('pd/main.pd', function(mainStr) {
   // Loading the patch
   patch = Pd.loadPatch(mainStr);
 
